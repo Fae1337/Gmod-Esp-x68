@@ -1,0 +1,77 @@
+﻿  main.cpp
+C:\Users\admin\source\repos\receiver\receiver\memory.h(28,21): error C2665: "std::basic_string_view<char,std::char_traits<char>>::compare": ни одна перегруженная функция не может преобразовать все типы аргументов
+  (компиляция исходного файла "main.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_string_view.hpp(1681,30):
+      может быть "int std::basic_string_view<char,std::char_traits<char>>::compare(const std::basic_string_view<char,std::char_traits<char>>) noexcept const"
+          C:\Users\admin\source\repos\receiver\receiver\memory.h(28,21):
+          "int std::basic_string_view<char,std::char_traits<char>>::compare(const std::basic_string_view<char,std::char_traits<char>>) noexcept const": невозможно преобразовать аргумент 1 из "WCHAR [260]" в "const std::basic_string_view<char,std::char_traits<char>>"
+              C:\Users\admin\source\repos\receiver\receiver\memory.h(28,34):
+              "std::basic_string_view<char,std::char_traits<char>>::basic_string_view": ни одна перегруженная функция не может преобразовать все типы аргументов
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_string_view.hpp(1493,20):
+                  может быть "std::basic_string_view<char,std::char_traits<char>>::basic_string_view(const char *const ) noexcept"
+                      C:\Users\admin\source\repos\receiver\receiver\memory.h(28,34):
+                      "std::basic_string_view<char,std::char_traits<char>>::basic_string_view(const char *const ) noexcept": невозможно преобразовать аргумент 1 из "WCHAR [260]" в "const char *const "
+                          C:\Users\admin\source\repos\receiver\receiver\memory.h(28,34):
+                          Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_string_view.hpp(1511,5):
+                  или       "std::basic_string_view<char,std::char_traits<char>>::basic_string_view(_Iter,_Sent) noexcept(<expr>)"
+                  C:\Users\admin\source\repos\receiver\receiver\memory.h(28,34):
+                  при попытке сопоставить список аргументов "(WCHAR [260])"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_string_view.hpp(1696,30):
+      или       "int std::basic_string_view<char,std::char_traits<char>>::compare(const _Elem *const ) noexcept const"
+          with
+          [
+              _Elem=char
+          ]
+          C:\Users\admin\source\repos\receiver\receiver\memory.h(28,21):
+          "int std::basic_string_view<char,std::char_traits<char>>::compare(const _Elem *const ) noexcept const": невозможно преобразовать аргумент 1 из "WCHAR [260]" в "const _Elem *const "
+          with
+          [
+              _Elem=char
+          ]
+              C:\Users\admin\source\repos\receiver\receiver\memory.h(28,34):
+              Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Users\admin\source\repos\receiver\receiver\memory.h(28,21):
+      при попытке сопоставить список аргументов "(WCHAR [260])"
+  
+C:\Users\admin\source\repos\receiver\receiver\memory.h(31,62): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\admin\source\repos\receiver\receiver\memory.h(53,93): warning C4244: аргумент: преобразование "const uintptr_t" в "DWORD", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\admin\source\repos\receiver\receiver\memory.h(59,20): error C2665: "std::basic_string_view<char,std::char_traits<char>>::compare": ни одна перегруженная функция не может преобразовать все типы аргументов
+  (компиляция исходного файла "main.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_string_view.hpp(1681,30):
+      может быть "int std::basic_string_view<char,std::char_traits<char>>::compare(const std::basic_string_view<char,std::char_traits<char>>) noexcept const"
+          C:\Users\admin\source\repos\receiver\receiver\memory.h(59,20):
+          "int std::basic_string_view<char,std::char_traits<char>>::compare(const std::basic_string_view<char,std::char_traits<char>>) noexcept const": невозможно преобразовать аргумент 1 из "WCHAR [256]" в "const std::basic_string_view<char,std::char_traits<char>>"
+              C:\Users\admin\source\repos\receiver\receiver\memory.h(59,33):
+              "std::basic_string_view<char,std::char_traits<char>>::basic_string_view": ни одна перегруженная функция не может преобразовать все типы аргументов
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_string_view.hpp(1493,20):
+                  может быть "std::basic_string_view<char,std::char_traits<char>>::basic_string_view(const char *const ) noexcept"
+                      C:\Users\admin\source\repos\receiver\receiver\memory.h(59,33):
+                      "std::basic_string_view<char,std::char_traits<char>>::basic_string_view(const char *const ) noexcept": невозможно преобразовать аргумент 1 из "WCHAR [256]" в "const char *const "
+                          C:\Users\admin\source\repos\receiver\receiver\memory.h(59,33):
+                          Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_string_view.hpp(1511,5):
+                  или       "std::basic_string_view<char,std::char_traits<char>>::basic_string_view(_Iter,_Sent) noexcept(<expr>)"
+                  C:\Users\admin\source\repos\receiver\receiver\memory.h(59,33):
+                  при попытке сопоставить список аргументов "(WCHAR [256])"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_string_view.hpp(1696,30):
+      или       "int std::basic_string_view<char,std::char_traits<char>>::compare(const _Elem *const ) noexcept const"
+          with
+          [
+              _Elem=char
+          ]
+          C:\Users\admin\source\repos\receiver\receiver\memory.h(59,20):
+          "int std::basic_string_view<char,std::char_traits<char>>::compare(const _Elem *const ) noexcept const": невозможно преобразовать аргумент 1 из "WCHAR [256]" в "const _Elem *const "
+          with
+          [
+              _Elem=char
+          ]
+              C:\Users\admin\source\repos\receiver\receiver\memory.h(59,33):
+              Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Users\admin\source\repos\receiver\receiver\memory.h(59,20):
+      при попытке сопоставить список аргументов "(WCHAR [256])"
+  

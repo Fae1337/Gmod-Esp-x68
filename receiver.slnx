@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="receiver/receiver.vcxproj" Id="85ec692d-27f9-4e96-9d7c-2a2dfaec5c86" />
+</Solution>

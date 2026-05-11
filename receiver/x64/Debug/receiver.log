@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\admin\source\repos\receiver\receiver\memory.h(31,62): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\admin\source\repos\receiver\receiver\memory.h(53,93): warning C4244: аргумент: преобразование "const uintptr_t" в "DWORD", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\admin\source\repos\receiver\receiver\vector.h(49,11): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\admin\source\repos\receiver\receiver\vector.h(50,11): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+  receiver.vcxproj -> C:\Users\admin\source\repos\receiver\x64\Debug\receiver.exe
