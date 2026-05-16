@@ -2,8 +2,8 @@
 #include <Windows.h>
 #include <cmath>
 
-extern int screenWidth = 1920;
-extern int screenHeight = 1080;
+extern int screenWidth = GetSystemMetrics(SM_CXSCREEN);
+extern int screenHeight = GetSystemMetrics(SM_CYSCREEN);
 
 struct view_matrix_t {
 	float* operator[ ](int index) {
