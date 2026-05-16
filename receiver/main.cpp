@@ -36,8 +36,8 @@ LRESULT CALLBACK window_procedure(HWND window, UINT message, WPARAM w_param, LPA
     switch (message)
     {
     case WM_NCHITTEST: {
-        const LONG borderWidth = 1920;
-        const LONG titleBarHeight = 1080;
+        const LONG borderWidth = screenWidth;
+        const LONG titleBarHeight = screenHeight;
         POINT cursorPos{ GET_X_LPARAM(w_param), GET_X_LPARAM(l_param) };
         RECT windowRect;
         GetWindowRect(window, &windowRect);
